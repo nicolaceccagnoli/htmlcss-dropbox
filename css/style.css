@@ -198,6 +198,10 @@ div h3 {
     SEZIONE 2
 */
 
+.section-2{
+    min-height: calc((100vh / 2) - 60px);
+}
+
 .jumbo-small-section-2{
     display: flex;
     padding: 50px 0;
@@ -213,6 +217,27 @@ div h3 {
     width: 40%;
     height: 300px;
     background-color: cyan;
+}
+
+/* 
+    SEZIONE 3
+*/
+
+.section-3{
+    height: calc(120vh - 60px);
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 10px;
+    width: 30%;
+    min-height: 300px ;
 }
 
 /* 
@@ -267,7 +292,6 @@ div h3 {
 
 .debug .section-2{
     background-color: burlywood;
-    min-height: calc((100vh / 2) - 60px);
 }
 
 /* 
@@ -276,7 +300,17 @@ div h3 {
 
 .debug .section-3{
     background-color: brown;
-    height: calc(100vh - 60px);
+}
+
+/* .debug .cards{
+    background-color: aqua;
+} */
+
+.debug .card{
+    /* border: 2px dashed black; */
+    background-color: darkgoldenrod;
+    /* width: 200px;
+    height: 300px; */
 }
 
 /* 
