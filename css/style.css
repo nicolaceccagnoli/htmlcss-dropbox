@@ -241,6 +241,35 @@ div h3 {
 }
 
 /* 
+    SEZIONE 4
+*/
+
+.section-4{
+    min-height: calc((130vh / 3) - 60px);
+}
+
+/* 
+    SEZIONE 5
+*/
+
+.section-5-top {
+    height: calc(100vh / 3);
+    display: flex;
+}
+
+.companies {
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.companies div{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+/* 
     DEBUG
 */
 
@@ -302,13 +331,6 @@ div h3 {
     background-color: brown;
 }
 
-/* 
-    SEZIONE 4
-*/
-.section-4{
-    min-height: calc((130vh / 3) - 60px);
-}
-
 /* .debug .cards{
     background-color: aqua;
 } */
@@ -343,6 +365,10 @@ div h3 {
 .debug .section-5-top{
     background-color: cornflowerblue;
     height: 70%;
+}
+
+.debug .companies {
+    background-color: bisque;
 }
 /* 
     SEZIONE 5 BOTTOM
