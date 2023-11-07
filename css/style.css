@@ -302,6 +302,13 @@ div h3 {
     background-color: brown;
 }
 
+/* 
+    SEZIONE 4
+*/
+.section-4{
+    min-height: calc((130vh / 3) - 60px);
+}
+
 /* .debug .cards{
     background-color: aqua;
 } */
@@ -319,7 +326,6 @@ div h3 {
 
 .debug .section-4{
     background-color:cadetblue;
-    min-height: calc((100vh / 3) - 60px);
 }
 
 /* 
