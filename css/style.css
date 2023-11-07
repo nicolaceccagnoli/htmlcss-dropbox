@@ -134,7 +134,7 @@ div p{
     font-size: 0.75em;
 }
 
-.jumbotron div:nth-of-type(2) {
+.jumbo-small div:nth-of-type(2) {
     width: 70%;
 }
 
@@ -195,6 +195,27 @@ div h3 {
 }
 
 /* 
+    SEZIONE 2
+*/
+
+.jumbo-small-section-2{
+    display: flex;
+    padding: 50px 0;
+}
+
+.jumbo-small-section-2 div:first-of-type{
+    width: 60%;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.jumbo-small-section-2 div:nth-of-type(2){
+    width: 40%;
+    height: 300px;
+    background-color: cyan;
+}
+
+/* 
     DEBUG
 */
 
@@ -239,6 +260,7 @@ div h3 {
 .debug .my-row {
     background-color: darkmagenta;
 }
+
 /*  
     SEZIONE 2
 */
