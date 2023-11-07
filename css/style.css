@@ -22,8 +22,55 @@ html{
     max-width: 1200px;
 }
 
+.button {
+    background-color: #0160FF;
+    color: white;
+    padding: 5px 12px;
+}
+/* 
+    HEADER
+*/
+
 header{
     background-color: #fff;
+}
+
+/* 
+    HEADER TOP
+*/
+
+.header-top {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    min-width: 100vw;
+    margin: 0;
+}
+
+header .container nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    width: 50%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{ 
+    color: black;
+    font-size: smaller;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.header-top nav:nth-of-type(2){
+    text-align: end;
 }
 
 /* 
@@ -35,12 +82,11 @@ header{
     DEBUG HEADER TOP
 */
 
-.debug .header-top{
+
+
+/* .debug .header-top{
     background-color: lightcoral;
-    min-height: 60px;
-    min-width: 100vw;
-    margin: 0;
-}
+} */
 
 /* 
     DEBUG HEADER BOTTOM
@@ -61,6 +107,7 @@ header{
     margin: 0 auto;
     max-width: 70%;
 }
+
 /* 
     SEZIONE 1
 */
