@@ -17,7 +17,7 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -57,11 +57,10 @@ header{
     MAIN    
 */
 
-main {
+.section section{
     margin: 0 auto;
-    width: 80vw;
+    max-width: 70%;
 }
-
 /* 
     SEZIONE 1
 */
@@ -99,11 +98,11 @@ main {
 }
 
 /* 
-    SEZIONT 5    
+    SEZIONE 5    
 */
 
 .debug .section-5{
-    height: calc(50vh - 60px);
+    height: calc(100vh - 60px);
 }
 
 /* 
@@ -121,6 +120,15 @@ main {
 .debug .section-5-bottom{
     background-color:darkcyan ;
     height: 30%;
+}
+
+/* 
+    SEZIONE 6
+*/
+
+.debug .section-6{
+    background-color: darkgreen;
+    height: calc(50vh - 60px);
 }
 
 /* 
