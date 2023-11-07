@@ -21,3 +21,132 @@ html{
     margin: 0 auto;
     max-width: 1200px;
 }
+
+header{
+    background-color: #fff;
+}
+
+/* 
+    DEBUG
+*/
+
+
+/* 
+    DEBUG HEADER TOP
+*/
+
+.debug .header-top{
+    background-color: lightcoral;
+    min-height: 60px;
+    min-width: 100vw;
+    margin: 0;
+}
+
+/* 
+    DEBUG HEADER BOTTOM
+*/
+
+.debug .header-bottom{
+    background-color: #B3D0E7;
+    min-height: 500px;
+    min-width: 100vw;
+    margin: 0;
+}
+
+/* 
+    MAIN    
+*/
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+/* 
+    SEZIONE 1
+*/
+
+.debug .section-1{
+    background-color: rgb(1, 90, 213);
+    min-height: 100vh;
+}
+
+/* 
+    SEZIONE 2
+*/
+
+.debug .section-2{
+    background-color: burlywood;
+    min-height: calc((100vh / 2) - 60px);
+}
+
+/* 
+    SEZIONE 3
+*/
+
+.debug .section-3{
+    background-color: brown;
+    height: calc(100vh - 60px);
+}
+
+/* 
+    SEZIONE 4
+*/
+
+.debug .section-4{
+    background-color:cadetblue;
+    min-height: calc((100vh / 3) - 60px);
+}
+
+/* 
+    SEZIONT 5    
+*/
+
+.debug .section-5{
+    height: calc(50vh - 60px);
+}
+
+/* 
+    SEZIONE 5 TOP
+*/
+
+.debug .section-5-top{
+    background-color: cornflowerblue;
+    height: 70%;
+}
+/* 
+    SEZIONE 5 BOTTOM
+*/
+
+.debug .section-5-bottom{
+    background-color:darkcyan ;
+    height: 30%;
+}
+
+/* 
+    FOOTER 
+*/
+
+footer {
+    background-color: #000;
+    height: calc(50vh - 60px);
+    color: white;
+}
+
+/* 
+    FOOTER TOP
+*/
+
+.debug .footer-top {
+    background-color: 222;
+    height: 80%;
+}
+
+/* 
+    FOOTER BOTTOM
+*/
+
+.debug .footer-bottom {
+    background-color: gainsboro;
+    height: 20%;
+}
