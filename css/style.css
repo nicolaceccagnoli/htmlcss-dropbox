@@ -41,6 +41,9 @@ h1 {
     font-size: 65px;
 }
 
+h2{
+    font-size: 2em;
+}
 /* 
     HEADER
 */
@@ -85,6 +88,11 @@ nav a{
 
 .header-top nav:nth-of-type(2){
     text-align: end;
+}
+
+li a img {
+    width: 100px;
+    vertical-align: middle;
 }
 
 /* 
@@ -135,6 +143,33 @@ div p{
     padding-top: 25px;
 }
 
+
+/* 
+    MAIN
+*/
+
+.section section{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+/* 
+    SEZIONE 1
+*/
+
+.section-1{
+    min-height: 100vh;
+}
+
+section h2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+section input {
+    border: 2px #0160FF;
+}
+
 /* 
     DEBUG
 */
@@ -162,10 +197,7 @@ div p{
     MAIN    
 */
 
-.section section{
-    margin: 0 auto;
-    max-width: 70%;
-}
+
 
 /* 
     SEZIONE 1
@@ -173,7 +205,6 @@ div p{
 
 .debug .section-1{
     background-color: rgb(1, 90, 213);
-    min-height: 100vh;
 }
 
 /* 
