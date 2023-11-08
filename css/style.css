@@ -22,6 +22,11 @@ html{
     max-width: 1200px;
 }
 
+.section{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
 .small-button {
     background-color: #0160FF;
     color: white;
@@ -299,10 +304,6 @@ input{
     SEZIONE 2
 */
 
-.section{
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
 
 .section-2{
     display: flex;
@@ -343,6 +344,11 @@ input{
     margin-top: 30px;
     width: 31%;
     min-height: 300px ;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* 
