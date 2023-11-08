@@ -389,11 +389,65 @@ span > a {
 }
 
 .partners div{
-    background-color: red;
     height: 50%;
     width: 50%;
 }
 
+#big-partner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner div img {
+    width: 100%;
+    object-fit: cover;
+    filter: invert(100%);
+}
+
+.green {
+    background-color: #A2D39B;
+    border: 12px solid #D1E9CD;
+}
+
+.bordeaux {
+    background-color: #61092B;
+}
+
+.lightblue {
+    background-color: #0093CE;
+}
+
+.red {
+    background-color: #FF1B1C;
+}
+
+.dark-red {
+    background-color: #D5001F;
+}
+
+.cyan {
+    background-color: #D5001F;
+}
+
+.blue {
+    background-color: #0E2381;
+}
+
+.yellow {
+    background-color: #FFD72F;
+}
 /* 
     SEZIONE 5 BOTTOM
 */
@@ -411,10 +465,6 @@ span > a {
 /* 
     SEZIONE 6
 */
-
-/* .section-6 {
-    height: calc(70vh - 60px);
-} */
 
 /* 
     FOOTER TOP
@@ -455,8 +505,6 @@ span > a {
     DEBUG HEADER TOP
 */
 
-
-
 /* .debug .header-top{
     background-color: lightcoral;
 } */
@@ -472,8 +520,6 @@ span > a {
 /* 
     MAIN    
 */
-
-
 
 /* 
     SEZIONE 1
@@ -552,6 +598,10 @@ span > a {
     background-color: cornflowerblue;
     height: 100%;
 }
+
+/* .debug .section-5-top .partners div {
+    background-color: red;
+} */
 
 .debug .companies {
     background-color: bisque;
