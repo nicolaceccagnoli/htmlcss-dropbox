@@ -153,8 +153,9 @@ div p{
     width: 70%;
 }
 
-.jumbotron img {
+.jumbo-small-dx img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -298,26 +299,33 @@ input{
     SEZIONE 2
 */
 
+.section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .section-2{
     display: flex;
-    padding: 50px 0;
-    min-height: 300px;
 }
 
-.jumbo-small-section-2 div:first-of-type{
+.section-2 .jumbo-small-dx{
     width: 60%;
-    height: 300px;
-    background-color: blueviolet;
 }
 
-.jumbo-small-section-2 div:nth-of-type(2){
+.section-2 .jumbo-small-sx {
     width: 40%;
-    height: 300px;
-    background-color: cyan;
+    padding: 48px 32px;
 }
 
-.section-2 h3{
-    padding-top: 50px;
+.section-2 .jumbo-small-sx a {
+    align-self: flex-start;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
 }
 
 /* 
@@ -479,15 +487,15 @@ input{
 */
 
 .debug .section-2{
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 .debug .section-2 .jumbo-small-sx{
-    background-color: #B3D0E7;
+    /* background-color: #B3D0E7; */
 }
 
 .debug .section-2 .jumbo-small-dx{
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
 }
 /* 
     SEZIONE 3
