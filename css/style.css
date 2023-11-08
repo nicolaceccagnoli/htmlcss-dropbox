@@ -114,16 +114,17 @@ li a img {
 }
 
 .jumbotron{
-    width:65vw;
+    width:950px;
     height: 100%;
     margin: 0 auto;
 }
 
 .jumbo-small {
+    width: 100%;
     display: flex;
 }
 
-.jumbo-small div:first-of-type {
+.jumbo-small-sx{
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -138,7 +139,7 @@ div p{
     font-size: 0.75em;
 }
 
-.jumbo-small div:nth-of-type(2) {
+.jumbo-small-dx{
     width: 70%;
 }
 
@@ -165,13 +166,13 @@ div p{
     SEZIONE 1
 */
 
-.section-1{
-    min-height: calc(135vh - 60px);
-}
-
 .section-1 h2 {
     padding-top: 120px;
     padding-bottom: 50px;
+}
+
+.section-1 h3 {
+    text-align: center;
 }
 
 section input {
@@ -181,6 +182,7 @@ section input {
 .products {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 40px;
 }
 
@@ -190,12 +192,15 @@ section input {
 
 .my-row {
     width: 100%;
-    min-height: 180px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.section-1 h3 {
+.plan-header, .plan-body{
     text-align: center;
+}
+
+.plan-body{
+    display: flex;
 }
 
 /* 
@@ -203,12 +208,9 @@ section input {
 */
 
 .section-2{
-    min-height: calc(50vh - 60px);
-}
-
-.jumbo-small-section-2{
     display: flex;
     padding: 50px 0;
+    min-height: 300px;
 }
 
 .jumbo-small-section-2 div:first-of-type{
@@ -230,10 +232,6 @@ section input {
 /* 
     SEZIONE 3
 */
-
-.section-3{
-    height: calc(110vh - 60px);
-}
 
 .cards {
     width: 100%;
@@ -273,14 +271,14 @@ section input {
     display: flex;
 }
 
-.companies {
+.partners {
     height: calc(100vw / 3);
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
-.companies div{
+.partners div{
     background-color: red;
     height: 50%;
     width: 50%;
@@ -289,9 +287,9 @@ section input {
 /* 
     SEZIONE 5 BOTTOM
 */
-
-.section-5-bottom {
-    height: calc((100vh / 3) - 60px);
+.section-5-bottom .jumbo-small{
+    width:950px;
+    margin: 0 auto;
 }
 
 .section-5 h2{
@@ -304,15 +302,17 @@ section input {
     SEZIONE 6
 */
 
-.section-6 {
+/* .section-6 {
     height: calc(70vh - 60px);
-}
+} */
 
 /* 
     FOOTER TOP
 */
 
 .useful-links{
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -330,6 +330,7 @@ section input {
 */
 
 .footer-bottom{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -378,6 +379,7 @@ section input {
 }
 
 .debug .my-row {
+    min-height: 180px;
     background-color: darkmagenta;
 }
 
@@ -389,6 +391,13 @@ section input {
     background-color: burlywood;
 }
 
+.debug .section-2 .jumbo-small-sx{
+    background-color: #B3D0E7;
+}
+
+.debug .section-2 .jumbo-small-dx{
+    background-color: fuchsia;
+}
 /* 
     SEZIONE 3
 */
@@ -444,6 +453,15 @@ section input {
     background-color:darkcyan ;
 }
 
+.debug .section-5-bottom .jumbo-small-sx{
+    background-color: bisque;
+    min-height: 300px;
+}
+
+.debug .section-5-bottom .jumbo-small-dx{
+    background-color:aliceblue;
+    min-height: 300px;
+}
 /* 
     SEZIONE 6
 */
@@ -458,7 +476,7 @@ section input {
 
 footer {
     background-color: #000;
-    height: calc(50vh - 60px);
+    /* height: calc(50vh - 60px); */
     color: white;
 }
 
