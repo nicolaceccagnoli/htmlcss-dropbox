@@ -156,11 +156,12 @@ div p{
 
 .jumbo-small-dx{
     width: 70%;
+    /* align-items: flex-start; */
+    text-align: start;
 }
 
 .jumbo-small-dx img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -260,6 +261,10 @@ input{
 .section .big-button {
     align-self: center;
     width: 100%;
+}
+
+span > a {
+    color: #0160FF;
 }
 
 .margin-bottom-8px {
@@ -474,61 +479,62 @@ input{
     SEZIONE 1
 */
 
-.debug .section-1{
-    /* background-color: rgb(1, 90, 213); */
-}
+/* .debug .section-1{
+    background-color: rgb(1, 90, 213);
+} */
 
-.debug .my-col-1-3 {
-    /* min-height: 500px; */
-    /* background-color: darkmagenta; */
-}
+/* .debug .my-col-1-3 {
+    min-height: 500px;
+    background-color: darkmagenta;
+} */
 
-.debug .my-row {
-    /* min-height: 180px; */
-    /* background-color: darkmagenta; */
-}
+/* .debug .my-row {
+    min-height: 180px;
+    background-color: darkmagenta;
+} */
 
 /*  
     SEZIONE 2
 */
 
-.debug .section-2{
-    /* background-color: burlywood; */
-}
+/* .debug .section-2{
+    background-color: burlywood;
+} */
 
-.debug .section-2 .jumbo-small-sx{
-    /* background-color: #B3D0E7; */
-}
+/* .debug .section-2 .jumbo-small-sx{
+    background-color: #B3D0E7;
+} */
 
-.debug .section-2 .jumbo-small-dx{
-    /* background-color: fuchsia; */
-}
+/* .debug .section-2 .jumbo-small-dx{
+    background-color: fuchsia;
+} */
+
 /* 
     SEZIONE 3
 */
 
-.debug .section-3{
+/* .debug .section-3{
     background-color: brown;
-}
+} */
 
 /* .debug .cards{
     background-color: aqua;
 } */
 
-.debug .card{
-    /* border: 2px dashed black; */
+/* .debug .card{
+    border: 2px dashed black;
     background-color: darkgoldenrod;
-    /* width: 200px;
-    height: 300px; */
-}
+    width: 200px;
+    height: 300px;
+} */
 
 /* 
     SEZIONE 4
 */
 
-.debug .section-4{
+/* .debug .section-4{
     background-color:cadetblue;
-}
+} */
 
 /* 
     SEZIONE 5    
