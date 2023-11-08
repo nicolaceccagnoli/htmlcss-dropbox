@@ -46,6 +46,7 @@ h1 {
 h2{
     font-size: 2em;
 }
+
 /* 
     HEADER
 */
@@ -108,9 +109,12 @@ li a img {
     margin: 0;
 }
 
-.jumbotron{
+.header-bottom .jumbotron{
     transform: translateY(10%);
-    width:65%;
+}
+
+.jumbotron{
+    width:65vw;
     height: 100%;
     margin: 0 auto;
 }
@@ -162,10 +166,10 @@ div p{
 */
 
 .section-1{
-    min-height: 135vh;
+    min-height: calc(135vh - 60px);
 }
 
-section h2 {
+.section-1 h2 {
     padding-top: 120px;
     padding-bottom: 50px;
 }
@@ -190,7 +194,7 @@ section input {
     margin-top: 30px;
 }
 
-div h3 {
+.section-1 h3 {
     text-align: center;
 }
 
@@ -199,7 +203,7 @@ div h3 {
 */
 
 .section-2{
-    min-height: calc((100vh / 2) - 60px);
+    min-height: calc(50vh - 60px);
 }
 
 .jumbo-small-section-2{
@@ -219,12 +223,16 @@ div h3 {
     background-color: cyan;
 }
 
+.section-2 h3{
+    padding-top: 50px;
+}
+
 /* 
     SEZIONE 3
 */
 
 .section-3{
-    height: calc(120vh - 60px);
+    height: calc(110vh - 60px);
 }
 
 .cards {
@@ -235,8 +243,8 @@ div h3 {
 }
 
 .card {
-    margin-top: 10px;
-    width: 30%;
+    margin-top: 30px;
+    width: 31%;
     min-height: 300px ;
 }
 
@@ -245,15 +253,23 @@ div h3 {
 */
 
 .section-4{
-    min-height: calc((130vh / 3) - 60px);
+    min-height: calc((100vh / 3) - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
 
 /* 
     SEZIONE 5
 */
 
+/* 
+    SEZIONE 5 TOP
+*/
+
 .section-5-top {
-    height: calc(100vh / 3);
+    height: calc((100vh / 3) - 60px);
     display: flex;
 }
 
@@ -269,6 +285,56 @@ div h3 {
     height: 50%;
     width: 50%;
 }
+
+/* 
+    SEZIONE 5 BOTTOM
+*/
+
+.section-5-bottom {
+    height: calc((100vh / 3) - 60px);
+}
+
+.section-5 h2{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* 
+    SEZIONE 6
+*/
+
+.section-6 {
+    height: calc(70vh - 60px);
+}
+
+/* 
+    FOOTER TOP
+*/
+
+.useful-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.useful-links li {
+    list-style: none;
+}
+
+.useful-links a{
+    text-decoration: none;
+}
+/* 
+    FOOTER BOTTOM
+*/
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* 
     DEBUG
 */
@@ -354,9 +420,9 @@ div h3 {
     SEZIONE 5    
 */
 
-.debug .section-5{
-    height: calc(100vh - 60px);
-}
+/* .debug .section-5{
+    height: 100%;
+} */
 
 /* 
     SEZIONE 5 TOP
@@ -364,7 +430,7 @@ div h3 {
 
 .debug .section-5-top{
     background-color: cornflowerblue;
-    height: 70%;
+    height: 100%;
 }
 
 .debug .companies {
@@ -376,7 +442,6 @@ div h3 {
 
 .debug .section-5-bottom{
     background-color:darkcyan ;
-    height: 30%;
 }
 
 /* 
@@ -385,7 +450,6 @@ div h3 {
 
 .debug .section-6{
     background-color: darkgreen;
-    height: calc(50vh - 60px);
 }
 
 /* 
@@ -405,6 +469,10 @@ footer {
 .debug .footer-top {
     background-color: 222;
     height: 80%;
+}
+
+.debug .useful-links{
+    background-color: #B3D0E7;
 }
 
 /* 
