@@ -378,6 +378,7 @@ span > a {
 
 .section-5-top {
     height: calc((100vh / 3) - 60px);
+    height: 100%;
     display: flex;
 }
 
@@ -463,15 +464,15 @@ span > a {
     SEZIONE 5 BOTTOM
 */
 .section-5-bottom .jumbo-small{
-    width:950px;
+    max-width:950px;
     margin: 0 auto;
 }
 
-.section-5 h2{
-    text-align: center;
-    vertical-align: middle;
+.section-5-bottom .jumbo-small-sx a, .section-5-bottom .jumbo-small-dx h2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 
 /* 
     SEZIONE 6
@@ -606,8 +607,7 @@ span > a {
 */
 
 .debug .section-5-top{
-    background-color: cornflowerblue;
-    height: 100%;
+    /* background-color: cornflowerblue; */
 }
 
 /* .debug .section-5-top .partners div {
