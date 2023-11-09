@@ -577,6 +577,22 @@ details[open] h4 {
 summary {
     font-size: medium;
     font-weight: 700;
+    cursor: pointer;
+}
+
+summary .fa-angle-down {
+    transform: translateY(20%);
+}
+
+details[open] .fa-angle-down {
+    animation: rotate 0.2s;
+    transform: rotateX(180deg);
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotateX(180deg);
+    }
 }
 
 /* 
