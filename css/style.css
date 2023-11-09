@@ -67,6 +67,9 @@ hr {
 */
 
 .header-top {
+    position: fixed;
+    background-color:#F5F5F5;
+    z-index: 1;
     display: flex;
     align-items: center;
     min-height: 60px;
