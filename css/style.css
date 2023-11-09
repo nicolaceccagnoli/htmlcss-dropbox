@@ -505,13 +505,22 @@ span > a {
     font-size: small;
     padding-right: 30px;
 }
+
+/* 
+    FOOTER
+*/
+
+footer {
+    background-color: #000;
+    color: white;
+}
+
 /* 
     FOOTER TOP
 */
 
 .useful-links{
     padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -522,6 +531,8 @@ span > a {
 }
 
 .useful-links a{
+    color: white;
+    font-size: 0.8em;
     text-decoration: none;
 }
 
@@ -534,6 +545,28 @@ span > a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.language {
+    margin-top: 30px;
+}
+
+.language-settings a {
+    display: flex;
+    padding: 30px 0;
+    text-decoration: none;
+    color: #99988F;
+    font-size: 0.8em;
+}
+
+.language-settings h6 {
+    padding: 0 5px;
+    font-size: x-small;
+}
+
+.language-settings .fa-caret-up {
+    position: relative;
+    top: 2px;
 }
 
 /* 
@@ -674,30 +707,20 @@ span > a {
     FOOTER 
 */
 
-footer {
-    background-color: #000;
-    /* height: calc(50vh - 60px); */
-    color: white;
-}
-
 /* 
     FOOTER TOP
 */
 
-.debug .footer-top {
-    background-color: 222;
-    height: 80%;
-}
 
-.debug .useful-links{
+/* .debug .useful-links{
     background-color: #B3D0E7;
-}
+} */
 
 /* 
     FOOTER BOTTOM
 */
 
 .debug .footer-bottom {
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     height: 20%;
 }
