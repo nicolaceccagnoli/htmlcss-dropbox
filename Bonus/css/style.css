@@ -87,6 +87,7 @@ header .container nav{
 nav li {
     list-style: none;
     display: inline-block;
+    transform: translateY(1%);
 }
 
 nav a{ 
@@ -104,10 +105,6 @@ nav a{
 li a img {
     width: 100px;
     vertical-align: middle;
-}
-
-.reverse {
-text-align: start;
 }
 
 /* 
@@ -150,6 +147,10 @@ text-align: start;
 
 .hide-menu a {
     padding: 5px 10px 10px 10px;
+}
+
+.reverse {
+    text-align: start;
 }
 
 /* 
