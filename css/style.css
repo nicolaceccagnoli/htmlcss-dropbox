@@ -198,10 +198,6 @@ div p{
     padding-left: 40px;
 }
 
-input{
-    outline: blue 50%;
-}
-
 .products {
     display: flex;
     justify-content: space-between;
