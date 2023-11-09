@@ -490,6 +490,21 @@ span > a {
     SEZIONE 6
 */
 
+.section-6 hr {
+    width: 100%;
+}
+
+.section-6 li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.fa-angle-down {
+    font-size: small;
+    padding-right: 30px;
+}
 /* 
     FOOTER TOP
 */
@@ -651,9 +666,9 @@ span > a {
     SEZIONE 6
 */
 
-.debug .section-6{
-    background-color: darkgreen;
-}
+/* .debug .section-6{
+    background-color:azure;
+} */
 
 /* 
     FOOTER 
