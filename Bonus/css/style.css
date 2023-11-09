@@ -1,0 +1,778 @@
+/* 
+    RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+    
+*/
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior:smooth ;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.small-button {
+    background-color: #0160FF;
+    color: white;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.big-button {
+    background-color: #0160FF;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+hr {
+    position: relative;
+    width: 50px;
+    border-color:black;
+    border-width: 0.3px;
+}
+
+/* 
+    HEADER
+*/
+
+/* 
+    HEADER TOP
+*/
+
+.header-top {
+    position: relative;
+    position: fixed;
+    background-color:#F5F5F5;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100vw;
+    margin: 0;
+}
+
+header .container nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{ 
+    display: inline-block;
+    color: black;
+    font-size: smaller;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+}
+
+.header-top nav:nth-of-type(2){
+    text-align: end;
+}
+
+li a img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+/* 
+    MENU NASCOSTO
+*/
+
+#hide:hover {
+    background-color: #F1EEE8;
+}
+
+#hide:hover .hide-menu {
+    display: block;
+}
+
+.hide-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+#menu-flex{
+    display: flex;
+}
+
+.hide-menu ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1EEE8;
+    padding: 8px 12px 8px 5px;
+}
+
+#menu-flex ul:first-of-type{
+    padding-right: 80px;
+}
+
+.hide-menu h5 {
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.hide-menu a {
+    padding: 5px 10px 10px 10px;
+}
+
+/* 
+    HEADER BOTTOM
+*/
+
+.header-bottom {
+    background-color: #B3D0E7;
+    min-width: 100vw;
+    margin: 0;
+}
+
+.header-bottom .jumbotron{
+    transform: translateY(18%);
+}
+
+.header-bottom a:nth-of-type(2) {
+    color: black;
+}
+
+.jumbotron{
+    width:950px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.jumbo-small {
+    width: 100%;
+    display: flex;
+}
+
+.jumbo-small-sx{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.jumbo-small-sx .big-button{
+    max-width: 180px;
+}
+
+.jumbo-small img {
+    margin: 25px 0;
+}
+
+div p{
+    margin: 25px 0;
+    font-size: 0.75em;
+}
+
+.jumbo-small-dx{
+    width: 70%;
+    text-align: start;
+}
+
+.jumbo-small-dx img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.fa-arrow-down {
+    margin-top: 15px;
+}
+
+
+/* 
+    MAIN
+*/
+
+.section section{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+/* 
+    SEZIONE 1
+*/
+
+.section-1 h2 {
+    margin-top: 120px;
+    padding-bottom: 50px;
+}
+
+.radio-button {
+    display: flex;
+}
+
+.radio-button div:last-child{
+    padding-left: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.my-col-1-3 {
+    width: calc((100% / 3) - 30px);
+}
+
+.my-row {
+    width: 100%;
+    margin: 24px 0;
+
+}
+
+.my-col-1-3, .my-row{
+    text-align: center;
+    border: solid black;
+    border-width: 0.3px;
+}
+
+.plan-header{
+    padding: 6px 12px;
+}
+
+#rule{
+    width: 100%;
+    border-width: 0.3px;
+}
+
+.my-col-1-3 .plan-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.my-row .plan-body{
+    display: flex;
+}
+
+.section-1 ul {
+    text-align: start;
+}
+
+.section-1 li {
+    list-style: none;
+    display: flex;
+    font-size: small;
+}
+
+.section-1 li i {
+    transform: translateY(3px);
+    padding-right: 8px;
+}
+
+.section .big-button {
+    align-self: center;
+    width: 100%;
+}
+
+span > a {
+    color: #0160FF;
+}
+
+.margin-bottom-8px {
+    margin-bottom: 8px;
+}
+
+.margin-bottom-12px{
+    margin-bottom: 12px;
+}
+
+.margin-bottom-24px {
+    margin-bottom: 24px;
+}
+
+.margin-bottom-30px{
+    margin-bottom: 30px;
+}
+
+.margin-bottom-36px{
+    margin-bottom: 36px;
+}
+
+.subtle{
+    font-size: 0.8em;
+}
+
+.fa-check {
+    font-size: larger ;
+    color:#0160FF;
+}
+
+.my-row .jumbo-small-dx, .my-row .jumbo-small-sx {
+    padding: 20px;
+}
+
+.my-row .jumbo-small-dx{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+    SEZIONE 2
+*/
+
+
+.section-2{
+    display: flex;
+}
+
+.section-2 .jumbo-small-dx{
+    width: 60%;
+}
+
+.section-2 .jumbo-small-sx {
+    width: 40%;
+    padding: 48px 32px;
+}
+
+.section-2 .jumbo-small-sx a {
+    align-self: flex-start;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* 
+    SEZIONE 3
+*/
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 30px;
+    width: 31%;
+    min-height: 300px ;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 
+    SEZIONE 4
+*/
+
+.section-4{
+    min-height: calc((100vh / 3) - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* 
+    SEZIONE 5
+*/
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+    SEZIONE 5 TOP
+*/
+
+.section-5-top {
+    /* height: calc((100vh / 3) - 60px); */
+    display: flex;
+}
+
+.partners {
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners .partner{
+    height: 50%;
+    width: 50%;
+}
+
+.partners:nth-of-type(2) {
+    background-color: #F5F5F5;
+    padding: 36px;
+}
+ 
+#big-partner img {
+    width: 50%;
+    object-fit: cover;
+}
+ 
+/* #big-partner {
+    width: 100%;
+    height: 50%;
+} */
+
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.partner div img {
+    width: 100%;
+    object-fit: cover;
+    filter: invert(100%);
+}
+
+.green {
+    background-color: #A2D39B;
+    border: 12px solid #D1E9CD;
+}
+
+.bordeaux {
+    background-color: #61092B;
+}
+
+.lightblue {
+    background-color: #0093CE;
+}
+
+.red {
+    background-color: #FF1B1C;
+}
+
+.dark-red {
+    background-color: #D5001F;
+}
+
+.cyan {
+    background-color: #B3D0E7;
+}
+
+.blue {
+    background-color: #0E2381;
+}
+
+.yellow {
+    background-color: #FFD72F;
+}
+/* 
+    SEZIONE 5 BOTTOM
+*/
+.section-5-bottom {
+    background-color: #B3D0E7;
+}
+
+.section-5-bottom h2 {
+    color: #61092B;
+}
+.section-5-bottom .jumbo-small-sx, .section-5-bottom .jumbo-small-dx {
+    padding: 70px 0;
+}
+.section-5-bottom .jumbo-small{
+    max-width:950px;
+    margin: 0 auto;
+}
+
+.section-5-bottom .jumbo-small-sx a, .section-5-bottom .jumbo-small-dx h2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-5-bottom .jumbo-small-sx a{
+    text-decoration: none;
+    padding: 12px 6px;
+    border-style: none;
+}
+
+/* 
+    SEZIONE 6
+*/
+
+.section-6 hr {
+    width: 100%;
+}
+
+.section-6 li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.fa-angle-down {
+    font-size: small;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+/* 
+    FOOTER
+*/
+
+footer {
+    background-color: #000;
+    color: white;
+}
+
+/* 
+    FOOTER TOP
+*/
+
+.useful-links{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.useful-links li {
+    list-style: none;
+}
+
+.useful-links a{
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+/* 
+    FOOTER BOTTOM
+*/
+
+.footer-bottom{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.language {
+    margin-top: 30px;
+}
+
+.language hr{
+    width: 10%;
+    border-color:#F5F5F5;
+}
+
+.language-settings a {
+    display: flex;
+    padding: 30px 0;
+    text-decoration: none;
+    color: #99988F;
+    font-size: 0.8em;
+}
+
+.language-settings h6 {
+    padding: 0 5px;
+    font-size: x-small;
+}
+
+.language-settings .fa-caret-up {
+    position: relative;
+    top: 2px;
+}
+
+/* 
+    DEBUG
+*/
+
+
+/* 
+    DEBUG HEADER TOP
+*/
+
+/* .debug .header-top{
+    background-color: lightcoral;
+} */
+
+/* 
+    DEBUG HEADER BOTTOM
+*/
+
+/* .debug .jumbotron {
+    background-color: red;
+} */
+
+/* 
+    MAIN    
+*/
+
+/* 
+    SEZIONE 1
+*/
+
+/* .debug .section-1{
+    background-color: rgb(1, 90, 213);
+} */
+
+/* .debug .my-col-1-3 {
+    min-height: 500px;
+    background-color: darkmagenta;
+} */
+
+/* .debug .my-row {
+    min-height: 180px;
+    background-color: darkmagenta;
+} */
+
+/*  
+    SEZIONE 2
+*/
+
+/* .debug .section-2{
+    background-color: burlywood;
+} */
+
+/* .debug .section-2 .jumbo-small-sx{
+    background-color: #B3D0E7;
+} */
+
+/* .debug .section-2 .jumbo-small-dx{
+    background-color: fuchsia;
+} */
+
+/* 
+    SEZIONE 3
+*/
+
+/* .debug .section-3{
+    background-color: brown;
+} */
+
+/* .debug .cards{
+    background-color: aqua;
+} */
+
+/* .debug .card{
+    border: 2px dashed black;
+    background-color: darkgoldenrod;
+    width: 200px;
+    height: 300px;
+} */
+
+/* 
+    SEZIONE 4
+*/
+
+/* .debug .section-4{
+    background-color:cadetblue;
+} */
+
+/* 
+    SEZIONE 5    
+*/
+
+/* .debug .section-5{
+    height: 100%;
+} */
+
+/* 
+    SEZIONE 5 TOP
+*/
+
+/* .debug .section-5-top{
+    background-color: cornflowerblue;
+} */
+
+/* .debug .section-5-top .partners div {
+    background-color: red;
+} */
+
+/* .debug .partners {
+    background-color: bisque;
+} */
+/* 
+    SEZIONE 5 BOTTOM
+*/
+
+/* .debug .section-5-bottom{
+    background-color:darkcyan ;
+} */
+
+/* .debug .section-5-bottom .jumbo-small-sx{
+    background-color: bisque;
+    min-height: 300px;
+} */
+
+/* .debug .section-5-bottom .jumbo-small-dx{
+    background-color:aliceblue;
+    min-height: 300px;
+} */
+/* 
+    SEZIONE 6
+*/
+
+/* .debug .section-6{
+    background-color:azure;
+} */
+
+/* 
+    FOOTER 
+*/
+
+/* 
+    FOOTER TOP
+*/
+
+
+/* .debug .useful-links{
+    background-color: #B3D0E7;
+} */
+
+/* 
+    FOOTER BOTTOM
+*/
+
+/* .debug .footer-bottom {
+    background-color: gainsboro;
+    height: 20%;
+} */
