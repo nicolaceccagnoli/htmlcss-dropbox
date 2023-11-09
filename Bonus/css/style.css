@@ -569,8 +569,14 @@ details:first-of-type {
     border-top: 1px solid black;
 }
 
-details[open] h5 {
+details[open] h4 {
     margin-bottom: 36px;
+    font-weight: 400;
+}
+
+summary {
+    font-size: medium;
+    font-weight: 700;
 }
 
 /* 
