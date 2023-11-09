@@ -149,7 +149,7 @@ li a img {
     padding: 5px 10px 10px 10px;
 }
 
-.reverse {
+#reverse {
     text-align: start;
 }
 
@@ -541,14 +541,17 @@ span > a {
     SEZIONE 6
 */
 
+/* 
+    ACCORDION (BONUS)
+*/
+
 .section-6 hr {
     width: 100%;
 }
 
-.section-6 li {
+.section-6 summary {
     display: flex;
     justify-content: space-between;
-    list-style: none;
     padding: 30px 0;
 }
 
@@ -556,6 +559,18 @@ span > a {
     font-size: small;
     padding-right: 30px;
     cursor: pointer;
+}
+
+details {
+    border-bottom: 1px solid black;
+}
+
+details:first-of-type {
+    border-top: 1px solid black;
+}
+
+details[open] h5 {
+    margin-bottom: 36px;
 }
 
 /* 
