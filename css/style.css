@@ -15,6 +15,7 @@
 
 html{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior:smooth ;
 }
 
 .container {
@@ -114,13 +115,16 @@ li a img {
 
 .header-bottom {
     background-color: #B3D0E7;
-    height: 550px;
     min-width: 100vw;
     margin: 0;
 }
 
 .header-bottom .jumbotron{
-    transform: translateY(10%);
+    transform: translateY(18%);
+}
+
+.header-bottom a:nth-of-type(2) {
+    color: black;
 }
 
 .jumbotron{
@@ -155,7 +159,6 @@ div p{
 
 .jumbo-small-dx{
     width: 70%;
-    /* align-items: flex-start; */
     text-align: start;
 }
 
@@ -387,6 +390,7 @@ span > a {
 
 .partners {
     height: calc(100vw / 3);
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -469,6 +473,10 @@ span > a {
 .section-5-bottom {
     background-color: #B3D0E7;
 }
+
+.section-5-bottom h2 {
+    color: #61092B;
+}
 .section-5-bottom .jumbo-small-sx, .section-5-bottom .jumbo-small-dx {
     padding: 70px 0;
 }
@@ -507,6 +515,7 @@ span > a {
 .fa-angle-down {
     font-size: small;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 /* 
@@ -552,6 +561,11 @@ footer {
 
 .language {
     margin-top: 30px;
+}
+
+.language hr{
+    width: 10%;
+    border-color:#F5F5F5;
 }
 
 .language-settings a {
@@ -723,7 +737,7 @@ footer {
     FOOTER BOTTOM
 */
 
-.debug .footer-bottom {
-    /* background-color: gainsboro; */
+/* .debug .footer-bottom {
+    background-color: gainsboro;
     height: 20%;
-}
+} */
